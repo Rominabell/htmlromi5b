@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0 0 20px 0;
+}
+
+/* Header */
+header {
+    background-color:#ac470d;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-link {
+    color: #c09999;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-color:peru;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.biografia {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: rgba(255, 115, 0, 0.226);
+    border-radius: 8px;
+    box-shadow:maroon;
+   
+}
+
+.biografia p {
+    margin-bottom: 1.5rem;
+}
+
+
+.logros {
+    background-color: rgba(255, 115, 0, 0.226);
+    padding: 40px 20px;
+}
+
+.logros .card {
+    border: none;
+    background-color: rgba(255, 115, 0, 0.226);
+}
+
+.citas {
+    background-color: rgba(255, 115, 0, 0.226);
+    color: rgba(255, 115, 0, 0.226);
+    padding: 40px 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
